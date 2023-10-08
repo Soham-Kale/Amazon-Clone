@@ -63,7 +63,7 @@
 
 .search-select {
     background-color: #f3f3f3;
-    width: 50px;
+    width: 1500px;
     text-align: center;
     border-top-left-radius: 4px;
     border-bottom-left-radius: 4px;
@@ -299,7 +299,7 @@ footer {
     margin-top: 15px;
 }
 .foot-panel1 {
-    width: 100vw;
+    width: 1500px;
     background-color: #37475a;
     color: white;
     height: 50px;
