@@ -142,6 +142,7 @@ span {
 /* panel */
 .panel {
     height: 40px;
+    width: 1500px;
     background-color: #222f3d;
     display: flex;
     color: #f3f3f3;
