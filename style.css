@@ -4,6 +4,38 @@
     box-sizing: border-box;
 }
 
+/* Default styles for all screen sizes */
+body {
+  font-size: 16px;
+  background-color: #fff;
+  color: #333;
+}
+
+/* Media query for screens smaller than 768px (typical for mobile devices) */
+@media (max-width: 767px) {
+  body {
+    font-size: 14px;
+  }
+  /* Additional styles for smaller screens */
+}
+
+/* Media query for screens between 768px and 992px (typical for tablets) */
+@media (min-width: 768px) and (max-width: 991px) {
+  body {
+    font-size: 16px;
+  }
+  /* Additional styles for medium-sized screens */
+}
+
+/* Media query for screens larger than 992px (typical for desktop) */
+@media (min-width: 992px) {
+  body {
+    font-size: 18px;
+  }
+  /* Additional styles for larger screens */
+}
+
+
 .navbar {
     width: 1500px;
     height: 60px;
